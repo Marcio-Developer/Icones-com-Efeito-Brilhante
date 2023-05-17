@@ -1,0 +1,32 @@
+body {
+    background-color: #111827;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.social-icons li {
+    margin-top: 250px;
+    margin-right: 10px;
+}
+
+.social-icons li a {
+    font-size: 30px;
+    text-shadow: 0 0 0px;
+    transition: 0.3s ease;
+}
+
+.social-icons li a:hover {
+    text-shadow: 0 0 10px;
+}
